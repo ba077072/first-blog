@@ -1,0 +1,15 @@
+﻿        * {margin:0; padding:0;}
+        li {list-style:none;}
+        a {text-decoration:none;}
+
+       
+
+        header .gnb {width:100%;}
+        header .gnb ul {position:fixed; overflow:hidden; top:0; right:0; left:0; background-color:#353535; }
+        header .gnb ul li {width:20%; height:35px; line-height:35px; text-align:center;
+            float:left; border-right:1px solid #cccccc; box-sizing:border-box;}
+        header .gnb ul li a {color:#ffffff;}
+
+        header .logo {width:100%; border-top:1px solid #cccccc; margin-top:35px; height:40px; line-height:40px; background-color:#353535;
+                      color:#ffffff; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+        }
